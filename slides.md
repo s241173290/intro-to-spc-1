@@ -314,3 +314,73 @@ $$\text{Cpk} = \min\left( \frac{USL - \mu}{3\sigma}, \frac{\mu - LSL}{3\sigma} \
 **Status:**
 Machines with $Cpk \ge 1.33$ are considered capable. Check generated logs for specific values based on the dataset.
 
+
+---
+
+### Slide 13: Statistical Distribution (Condition 1)
+
+:::: {.columns}
+::: {.column width="50%"}
+**Comparison:** Machine 1 vs Machine 2
+**Condition:** P=100kPa, T=303K
+
+The plot visualizes the observed t-statistic relative to the critical rejection regions ($\alpha = 0.05$).
+:::
+
+::: {.column width="50%"}
+![](media/pics/ttest_c13.png)
+:::
+::::
+
+---
+
+### Slide 14: T-Test Results (Condition 1)
+
+- **T-Statistic:** -2.2359
+- **P-Value:** 2.7624e-02
+- **Degrees of Freedom:** 98
+
+---
+
+### Slide 15: Decision Assessment (Condition 1)
+
+**Question:** Is there a true difference at P=100, T=303?
+
+**Conclusion:** Yes
+
+*(Based on significance level $\alpha = 0.05$)*
+
+---
+
+### Slide 16: Statistical Distribution (Condition 2)
+
+:::: {.columns}
+::: {.column width="50%"}
+**Comparison:** Machine 1 vs Machine 2
+**Condition:** P=300kPa, T=373K
+
+The plot visualizes the observed t-statistic relative to the critical rejection regions ($\alpha = 0.05$).
+:::
+
+::: {.column width="50%"}
+![](media/pics/ttest_c16.png)
+:::
+::::
+
+---
+
+### Slide 17: T-Test Results (Condition 2)
+
+- **T-Statistic:** 10.9374
+- **P-Value:** 1.1322e-18
+- **Degrees of Freedom:** 98
+
+---
+
+### Slide 18: Decision Assessment (Condition 2)
+
+**Question:** Is there a true difference at P=300, T=373?
+
+**Conclusion:** Yes
+
+*(Based on significance level $\alpha = 0.05$)*
