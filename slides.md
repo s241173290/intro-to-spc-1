@@ -384,3 +384,48 @@ The plot visualizes the observed t-statistic relative to the critical rejection 
 **Conclusion:** Yes
 
 *(Based on significance level $\alpha = 0.05$)*
+
+---
+
+### Slide 19: Factor Significance - Pressure (P)
+
+**Factor:** Pressure
+**Pr(>F):** 1.0487e-187
+
+**Significant for Machine 1?** Yes
+
+---
+
+### Slide 20: Factor Significance - Temperature (T)
+
+**Factor:** Temperature
+**Pr(>F):** 2.0333e-45
+
+**Significant for Machine 1?** Yes
+
+---
+
+### Slide 21: Factor Significance - Interaction (P*T)
+
+**Factor:** Pressure * Temperature
+**Pr(>F):** 6.9674e-15
+
+**Significant for Machine 1?** Yes
+
+---
+
+### Slide 22: Interaction Plot - Machine 1 Resistance
+
+:::: {.columns}
+::: {.column width="50%"}
+**Analysis of Variance (ANOVA)**
+
+The interaction plot illustrates how the effect of Pressure on Resistance changes across different levels of Temperature. 
+
+Parallel lines would suggest no interaction, while non-parallel lines indicate a synergistic or antagonistic relationship.
+:::
+
+::: {.column width="50%"}
+![](media/pics/interaction_m1.png)
+:::
+::::
