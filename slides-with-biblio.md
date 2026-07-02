@@ -175,5 +175,146 @@ This histogram visualizes the distribution of 'Math' scores within the dataset, 
 ::::
 
 ---
+
+# MACHINE 1 SECTION
+
+:::: {.columns}
+::: {.column width="50%"}
+### Control Chart: Machine 1
+**Conditions:**
+- Pressure: 200kPa
+- Temp: 338K
+
+Monitoring individual part measurements against statistical control limits.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/control_m1.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Capability Assessment: Machine 1
+**Parameters:**
+- LSL: 48.0
+- USL: 52.0
+
+The histogram shows the distribution of parts relative to the design specifications.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/capability_m1.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+### Machine 1 Summary
+
+**Cpk Calculation:**
+$$\text{Cpk} = \min\left( \frac{USL - \mu}{3\sigma}, \frac{\mu - LSL}{3\sigma} \right)$$
+
+**Status:**
+Machines with $Cpk \ge 1.33$ are considered capable. Check generated logs for specific values based on the dataset.
+
+
+---
+
+# MACHINE 2 SECTION
+
+:::: {.columns}
+::: {.column width="50%"}
+### Control Chart: Machine 2
+**Conditions:**
+- Pressure: 200kPa
+- Temp: 338K
+
+Monitoring individual part measurements against statistical control limits.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/control_m2.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Capability Assessment: Machine 2
+**Parameters:**
+- LSL: 48.0
+- USL: 52.0
+
+The histogram shows the distribution of parts relative to the design specifications.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/capability_m2.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+### Machine 2 Summary
+
+**Cpk Calculation:**
+$$\text{Cpk} = \min\left( \frac{USL - \mu}{3\sigma}, \frac{\mu - LSL}{3\sigma} \right)$$
+
+**Status:**
+Machines with $Cpk \ge 1.33$ are considered capable. Check generated logs for specific values based on the dataset.
+
+
+---
+
+# MACHINE 3 SECTION
+
+:::: {.columns}
+::: {.column width="50%"}
+### Control Chart: Machine 3
+**Conditions:**
+- Pressure: 200kPa
+- Temp: 338K
+
+Monitoring individual part measurements against statistical control limits.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/control_m3.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Capability Assessment: Machine 3
+**Parameters:**
+- LSL: 48.0
+- USL: 52.0
+
+The histogram shows the distribution of parts relative to the design specifications.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/capability_m3.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+### Machine 3 Summary
+
+**Cpk Calculation:**
+$$\text{Cpk} = \min\left( \frac{USL - \mu}{3\sigma}, \frac{\mu - LSL}{3\sigma} \right)$$
+
+**Status:**
+Machines with $Cpk \ge 1.33$ are considered capable. Check generated logs for specific values based on the dataset.
+
+
+---
 # Bibliography
 <div id="refs"></div>
